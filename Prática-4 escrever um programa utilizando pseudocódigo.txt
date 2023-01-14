@@ -1,0 +1,60 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		
+		
+		cadeia bilhete, passaporte
+	 	
+	 	 	
+	 	 	escreva("Olá, bem vindo(a) a companhia Via Celeste \n")
+	 		escreva("\nposso ver seu o bilhete e seu passaporte por favor?\n")
+	 		escreva("\n* Digite o numero do bilhete:  ")
+	 		leia(bilhete)
+	 		
+	 		escreva("\nO numero do bilhete é: ")
+	 		escreva(bilhete)
+	 		escreva("\nestá correto? digite (s) para sim e (n) para não: \n")
+	 		leia (bilhete)
+
+	 		
+	 		
+	 		se(bilhete != "s")
+			{
+				escreva("\nDigite novamente: ")
+				enquanto(bilhete != "s")
+				leia(bilhete)	
+			
+					se(bilhete == "s")
+					escreva("Muito bem\n")
+			}
+			
+			
+
+			escreva("\nDigite o número do passaporte\n")
+			leia(passaporte)
+			escreva("\nO numero do passaporte é: ")
+	 		escreva(passaporte)
+	 		escreva("\nestá correto? digite (s) para sim e (n) para não: \n")
+	 		leia(passaporte)
+
+	 		se(passaporte !="s")
+			{
+				escreva("Digite novamente")
+				enquanto(passaporte != "s")
+				leia(passaporte)	
+			}
+			
+			se(passaporte == "s")
+			{
+				escreva("Tudo certo\n")
+				escreva("\nPor favor queira se sentar, já iremos decolar\n")
+			
+			}
+
+			
+			
+
+	}
+}
